@@ -186,6 +186,46 @@ nav {
 .show-links {
   height: 10rem;
 }
+.banner{
+    background: var(--clr-purple-10);
+    color: var(--clr-purple-1);
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3rem;
+    color: var(--clr-purple-1);
+    margin-bottom: 1rem;
+}
+.banner-btn{
+    size: 54px;
+}
+.div-classprofile-banner{
+    background: var(--clr-purple-10);
+    display: flex;
+    justify-content: center;
+    color: var(--clr-purple-1);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: var(--radius);
+    box-shadow: var(--dark-shadow);
+}
+.profile-banner{
+    width: 20%;
+    height: 30%;
+    background: var(--clr-purple-10);
+    color: var(--clr-purple-1);
+    padding: 2rem 1rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    box-shadow: var(--dark-shadow);
+}
+.img-profile{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
